@@ -1,0 +1,25 @@
+info:
+  name: update manga
+  type: http
+  seq: 5
+
+http:
+  method: PATCH
+  url: http://localhost:3000/api/manga/1
+  body:
+    type: json
+    data: |-
+      {
+        "title": "One Piee",
+        "author": "Eiichiro Oda",
+        "chapters": 2000,
+        "isFinished": false
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

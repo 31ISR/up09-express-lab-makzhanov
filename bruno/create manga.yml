@@ -1,0 +1,25 @@
+info:
+  name: create manga
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: http://localhost:3000/api/manga
+  body:
+    type: json
+    data: |-
+      {
+        "title": "one piece",
+        "autor": "Eiichiro Oda",
+        "chapters": 1199,
+        "finished": false
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

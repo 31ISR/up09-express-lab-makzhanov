@@ -1,0 +1,27 @@
+{
+  "name": "up09-express-lab-makzhanov",
+  "version": "1.0.0",
+  "description": "- Поднять собственный бэкенд на Express и понять, как устроен запрос → ответ.\r - Хранить данные **в памяти процесса** — база данных не нужна.\r - Описать все запросы в коллекции **Bruno**, проверить их вручную и приложить к работе в папке `bruno`\r - Хостить работу не надо: всё проверяется локально.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/31ISR/up09-express-lab-makzhanov.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/31ISR/up09-express-lab-makzhanov/issues"
+  },
+  "homepage": "https://github.com/31ISR/up09-express-lab-makzhanov#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
